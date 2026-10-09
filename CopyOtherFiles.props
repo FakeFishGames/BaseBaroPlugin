@@ -8,6 +8,6 @@
       -->
     </ItemGroup>
 
-    <Copy SourceFiles="@(Files->'$(TargetDir)%(Identity)')" DestinationFolder="$(ModDeployDir)\$(ModName)\$(PlatformName)" />
+    <Copy SourceFiles="@(Files->'$(TargetDir)%(Identity)')" DestinationFolder="$(ModDeployDir)\$(ModName)\$(PlatformName)\$(BuildTarget)" />
   </Target>
 </Project>
