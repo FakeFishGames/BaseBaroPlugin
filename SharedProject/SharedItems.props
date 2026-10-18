@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Barotrauma.ReferenceAssemblies.Libraries" Version="*" />
-    <PackageReference Include="HarmonyX" Version="2.15.0" />
+    <PackageReference Include="HarmonyX" Version="2.16.0" />
 
     <ProjectReference Include="..\ContentPackageBuilder\ContentPackageBuilder.csproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
